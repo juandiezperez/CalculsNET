@@ -18,6 +18,9 @@ namespace CalcNet
         {
             InitializeComponent();
 
+            foreach (OperationEnum e in Enum.GetValues(typeof(OperationEnum)))
+                CB_Operation.Items.Add ( Tools.OperationChar (e) );
+
             foreach (ElipsisPositionEnum e in Enum.GetValues (typeof (ElipsisPositionEnum)))
                 CB_ElipsisPosition.Items.Add (e);
 

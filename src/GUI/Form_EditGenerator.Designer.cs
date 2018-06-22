@@ -67,11 +67,6 @@
             // 
             this.CB_Operation.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CB_Operation.FormattingEnabled = true;
-            this.CB_Operation.Items.AddRange(new object[] {
-            "+",
-            "-",
-            "*",
-            "/"});
             this.CB_Operation.Location = new System.Drawing.Point(141, 48);
             this.CB_Operation.Name = "CB_Operation";
             this.CB_Operation.Size = new System.Drawing.Size(60, 26);
