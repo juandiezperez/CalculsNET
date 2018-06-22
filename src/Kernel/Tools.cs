@@ -18,8 +18,8 @@
         {
             if (str == "+") return OperationEnum.Addition;
             if (str == "-") return OperationEnum.Substraction;
-            if (str == "*") return OperationEnum.Multiplication;
-            if (str == "/") return OperationEnum.Division;
+            if (str == "x") return OperationEnum.Multiplication;
+            if (str == ":") return OperationEnum.Division;
 
             throw new System.Exception("Cannot convert '" + str + "' to OperationEnum.");
         }
