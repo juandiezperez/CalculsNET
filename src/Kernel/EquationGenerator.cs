@@ -5,7 +5,7 @@ namespace CalcNet
 {
     public class EquationGenerator
     {
-        private Random randomizer = new Random(1234);
+        private static Random randomizer = new Random ( DateTime.Now.Millisecond % 997 );
 
         public string Name = "";
         public Range         LeftRange;
@@ -17,7 +17,7 @@ namespace CalcNet
         public EquationCollection Selection;
 
 
-        private bool my_selection_randomized = false;
+        private bool my_selection_randomized = true;
         private int  my_selection_limit = 8;
 
         public bool Selection_Randomized
