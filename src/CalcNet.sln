@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcNet", "CalcNet.csproj", "{E36CD0DF-B7A4-4914-8839-59AE77208126}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculs.NET", "Calculs.NET.csproj", "{E36CD0DF-B7A4-4914-8839-59AE77208126}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FAD13D2-7720-437C-88C8-B319EDA43067}
 	EndGlobalSection
 EndGlobal

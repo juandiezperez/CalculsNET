@@ -63,47 +63,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ElipsisPositionEnum.cs" />
-    <Compile Include="Equation.cs" />
-    <Compile Include="EquationCollection.cs" />
-    <Compile Include="EquationGenerator.cs" />
-    <Compile Include="FormMainWindow.cs">
+    <Compile Include="Kernel\ElipsisPositionEnum.cs" />
+    <Compile Include="Kernel\Equation.cs" />
+    <Compile Include="Kernel\EquationCollection.cs" />
+    <Compile Include="Kernel\EquationGenerator.cs" />
+    <Compile Include="GUI\FormMainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMainWindow.Designer.cs">
+    <Compile Include="GUI\FormMainWindow.Designer.cs">
       <DependentUpon>FormMainWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_EditGenerator.cs">
+    <Compile Include="GUI\Form_EditGenerator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_EditGenerator.Designer.cs">
+    <Compile Include="GUI\Form_EditGenerator.Designer.cs">
       <DependentUpon>Form_EditGenerator.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Pdf_Builder.cs">
+    <Compile Include="GUI\Form_Pdf_Builder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Pdf_Builder.Designer.cs">
+    <Compile Include="GUI\Form_Pdf_Builder.Designer.cs">
       <DependentUpon>Form_Pdf_Builder.cs</DependentUpon>
     </Compile>
-    <Compile Include="GeneratorParameters.cs" />
+    <Compile Include="Kernel\GeneratorParameters.cs" />
     <Compile Include="Log.cs" />
-    <Compile Include="OperationEnum.cs" />
+    <Compile Include="Kernel\OperationEnum.cs" />
     <Compile Include="PdfBuilder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Range.cs" />
+    <Compile Include="Kernel\Range.cs" />
     <Compile Include="TestGenerators.cs" />
-    <Compile Include="Tools.cs" />
-    <Compile Include="UC_EquationGenerator.cs">
+    <Compile Include="Kernel\Tools.cs" />
+    <Compile Include="GUI\UC_EquationGenerator.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UC_EquationGenerator.Designer.cs">
+    <Compile Include="GUI\UC_EquationGenerator.Designer.cs">
       <DependentUpon>UC_EquationGenerator.cs</DependentUpon>
     </Compile>
-    <Compile Include="UC_RangeEditor.cs">
+    <Compile Include="GUI\UC_RangeEditor.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UC_RangeEditor.Designer.cs">
+    <Compile Include="GUI\UC_RangeEditor.Designer.cs">
       <DependentUpon>UC_RangeEditor.cs</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -111,19 +111,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="FormMainWindow.resx">
+    <EmbeddedResource Include="GUI\FormMainWindow.resx">
       <DependentUpon>FormMainWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_EditGenerator.resx">
+    <EmbeddedResource Include="GUI\Form_EditGenerator.resx">
       <DependentUpon>Form_EditGenerator.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Pdf_Builder.resx">
+    <EmbeddedResource Include="GUI\Form_Pdf_Builder.resx">
       <DependentUpon>Form_Pdf_Builder.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UC_EquationGenerator.resx">
+    <EmbeddedResource Include="GUI\UC_EquationGenerator.resx">
       <DependentUpon>UC_EquationGenerator.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UC_RangeEditor.resx">
+    <EmbeddedResource Include="GUI\UC_RangeEditor.resx">
       <DependentUpon>UC_RangeEditor.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
